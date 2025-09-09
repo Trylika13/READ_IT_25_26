@@ -1,6 +1,10 @@
 <?php
 
 
+//  Route des users
+
+if (isset($_GET['users'])):
+    include_once '../app/routers/users.php';
 
 
 // Route par défaut:
@@ -8,6 +12,7 @@
 // CTRL: pagesController
 // ACTION: dashboard
 
-
-include_once '../app/controllers/pagesController.php';
-\App\Controllers\PagesController\dashboardAction($connexion);
+else:
+    include_once '../app/controllers/pagesController.php';
+    \App\Controllers\PagesController\dashboardAction($connexion);
+endif;
