@@ -21,6 +21,7 @@ function loginAction(PDO $connexion, array $data)
     $user = UsersModel\findOneByEmailAndPassword($connexion, $data);
 
     if ($user):
+        $_SESSION['user'] = $user;
         header('Location: ' . ADMIN_BASE_URL . 'dashboard');
 
     else :
