@@ -6,7 +6,7 @@
 <meta name="author" content="" />
 <link rel="icon" href="../../favicon.ico" />
 
-<title>BACKOFFICE - READ IT</title>
+<title>BACKOFFICE - READ IT - <?php echo $title  ?></title>
 
 <!-- Bootstrap core CSS -->
 <!-- Font Awesome -->
