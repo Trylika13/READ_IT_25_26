@@ -31,7 +31,7 @@
                         <li><a href="#">Ajouter un tag</a></li>
                         <li role="separator" class="divider"></li>
                         <li class="dropdown-header">GESTION DES UTILISATEURS</li>
-                        <li><a href="#">Liste des utilisateurs</a></li>
+                        <li><a href="users">Liste des utilisateurs</a></li>
                         <li><a href="#">Ajouter un utilisateur</a></li>
                     </ul>
                 </li>

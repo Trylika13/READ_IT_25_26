@@ -2,12 +2,16 @@ RewriteEngine on
 
 # ROUTES
 
-# ROUTE USER.LOGOUT
-# URL: user/LOGOUT
+# ROUTE USERS.LOGOUT
+# URL: users/LOGOUT
 # PATTERN :
 
 RewriteRule ^users/logout$ index.php?users=logout [L]
 
+# ROUTE USERS.index
+# URL: users
+# PATTERN :?users=index
+RewriteRule ^users$ index.php?users=index [L]
 # --------------------------------------------------
 RewriteCond %{REQUEST_URI} !\.(js|css|jpg|gif|zip|png|pdf)$ [NC]
 RewriteRule ^(.*)$ index.php [L]
