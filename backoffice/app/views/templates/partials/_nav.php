@@ -32,7 +32,7 @@
                         <li role="separator" class="divider"></li>
                         <li class="dropdown-header">GESTION DES UTILISATEURS</li>
                         <li><a href="users">Liste des utilisateurs</a></li>
-                        <li><a href="#">Ajouter un utilisateur</a></li>
+                        <li><a href="users/new">Ajouter un utilisateur</a></li>
                     </ul>
                 </li>
                 <li class=""><a href="users/logout">LOGOUT</a></li>
