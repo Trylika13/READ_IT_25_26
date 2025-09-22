@@ -2,7 +2,7 @@
     <div class="page-header">
         <h1>ADD A USER</h1>
     </div>
-    <form action="">
+    <form action="users/create" method="post">
         <div>
             <label for="firstname">Firstname</label>
             <input type="text" id="firstname" name="firstname" placeholder="Alex" />
